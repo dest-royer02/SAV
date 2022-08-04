@@ -1,20 +1,7 @@
 let bars = [];
 const def = "#b02e9f", chng = "#431f91", finished = "#085744", selected = "#cfa7c9";
 
-// Changes
-
-// let x = document.getElementsByClassName("bar");
-//    x.width=
-
-// document.getElementById("comp").innerHTML = "ms";
-
-//    a=document.getElementsByClassName(comp);
-//    a[0].innerHTML("AS");
-// Changes
-
 window.onload = setup();
-
-// document.getElementsByClassName("comp")[0].innerHTML = "ms";
 
 async function setup() {
 	let b = document.getElementById("bars");
